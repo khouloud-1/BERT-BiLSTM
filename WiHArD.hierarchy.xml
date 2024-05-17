@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<labels>
+	<label name="Culture" code='1' >
+		<label name="Clothes" code='2' />
+		<label name="Food_Drinks" code='3' />
+		<label name="Tourism" code='4' />
+	</label>
+	<label name="History" code='5' >
+		<label name="Events" code='6' />
+		<label name="Inventions" code='7' />
+		<label name="Monuments" code='8' />
+	</label>
+	<label name="Math" code='9' >
+		<label name="Algebra" code='10' />
+		<label name="Analysis" code='11' />
+		<label name="Geometry" code='12' />
+	</label>
+</labels>

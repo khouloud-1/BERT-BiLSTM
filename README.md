@@ -2,18 +2,26 @@
 
 
 **If you use software from this page, please cite us as follows:**
+
 Benamar HAMZAOUI, Djelloul BOUCHIHA, Abdelghani BOUZIANE, and Noureddine DOUMI. BERT-BILSTM model for hierarchical Arabic text classification. Submitted (still under review).
 
-**If you need help, contact Djelloul BOUCHIHA: **
+
+**If you need help, contact Djelloul BOUCHIHA:**
+
 bouchiha@cuniv-naama.dz; bouchiha.dj@gmail.com; djelloul.bouchiha@univ-sba.dz; 
+
 
 **Before using any software from this page, please follow carefully the following notes:**
 
 First you have to download the WiHArD dataset from https://data.mendeley.com/datasets/kdkryh5rs2/2. Download the whole dataset as one CSV file (WiHArD.csv)
 
 You also need to download:
+
 arabic-stop-words.txt
+
 WiHArD.hierarchy.xml
+
+
 
 **Note that all classifiers have been implemented using the Scientific Python Development Environment (Spyder IDE, version 4.1.5):**
  
@@ -30,22 +38,37 @@ C:\...>pip list
 
 For BERT embedding, you have to install:
 For english language:
+
 C:\...>pip install -U tensorflow
+
 C:\...>pip install -U tensorflow_hub
+
 C:\...>pip install -U tensorflow_text
 
+
 For Arabic language:
+
 C:\...>pip install -U tensorflow
+
 In the case of Ali Safaya (https://huggingface.co/asafaya/bert-base-arabic)
+
 C:\...>pip install -U transformers
+
 Look at (https://pytorch.org/get-started/locally/) to install pytorch
+
 C:\...>conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
 
 
 
+
+
+
 **Next, you will find two classifiers:**
+
  ARBERT-BILSTM-Model.py
+ 
  Doc2Vec-DecisionTreeModel.py
+ 
 
 **Next are some error and warning messages that you may meet when dealing with our classifier:**
 
